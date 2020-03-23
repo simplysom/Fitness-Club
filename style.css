@@ -1,0 +1,173 @@
+body{
+	font-family: Tahoma,Geneva,sans-serif;
+	color: #fff;
+	background: url(gym.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.signin{
+	background: rgba(44,62,80,0.4);
+	padding: 30px;
+	width: 300px;
+	margin: auto;
+	margin-top: 70px;
+	height: 400px;
+	margin-left: 180x;
+}
+
+input[type=Email]{
+	width: 180px;
+	background: transparent;
+	border: none;
+	border-bottom: 1px solid #fff;
+	font-family: 'Play',sans-serif;
+	outline: none;
+	text-align: center;
+}
+
+form{
+	width: 240px;
+	text-align: center;
+}
+input[type=password]{
+	width: 160px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+	font-family: 'Play',sans-serif;
+	text-align: center;
+}
+input[type=text]{
+	width: 180px;
+	background: transparent;
+	border: none;
+	border-bottom: 1px solid #fff;
+	font-family: 'Play',sans-serif;
+	outline: none;
+	text-align: center;
+}
+
+input[type=submit]{
+	border: none;
+	width: 100px;
+	background: grey;
+	color: #fff;
+	font-size: 16px;
+	line-height: 25px;
+	padding: 10px 0;
+	font-family: Tahoma,Geneva,sans-serif;
+	border-radius: 15px;
+	cursor: pointer;
+}
+
+input[type=button]hover{
+	color: #fff;
+	background-color: black;
+}
+
+h2{
+
+	margin-top: 15px;
+	margin-left: 10px;
+	font-family: Tahoma,Geneva,sans-serif;
+	color: white;
+}
+
+a{
+	color: yellow;
+	text-decoration: blink;
+}
+
+a:hover{
+	color: skyblue;
+}
+
+.gymfit{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+}
+
+::placeholder{
+	text-align: center;
+	color: white;
+	opacity:0.8;
+}
+
+header{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	z-index: 10;
+	padding: 20px 15px;  
+}
+
+header .container{
+	display: flex;
+	justify-content: space-between;
+}
+
+header .logo a{
+	font-size: 30px;
+	text-decoration: none;
+	color: #ffffff;
+	font-weight: 700;
+}
+
+header .logo a span{
+	color: #c11325
+}
+
+.container{
+	max-width: 1170px;
+	margin-top: 0;
+}
+
+.box{
+	border: none;
+	width: 100%;
+	background: black;
+	height: 60px;
+	margin-top: 0;
+	margin-left: 0;
+}
+
+.home{
+	height: 100vh;
+	/*background-image: url(gym.jpg);*/
+	background-size: cover;
+}
+.navbar {
+  min-height: 80px;
+}
+
+.navbar-brand {
+  padding: 0 15px;
+  height: 80px;
+  line-height: 80px;
+}
+
+.navbar-toggle {
+  /* (80px - button height 34px) / 2 = 23px */
+  margin-top: 23px;
+  padding: 9px 10px !important;
+}
+
+@media (min-width: 768px) {
+  .navbar-nav > li > a {
+    /* (80px - line-height of 27px) / 2 = 26.5px */
+    padding-top: 26.5px;
+    padding-bottom: 26.5px;
+    line-height: 27px;
+  }
+  .navbar-default {
+  background-color:black;
+  background-image: none;
+  background-repeat: no-repeat;
+  border-color: black;
+ }
+ .navbar-default .navbar-nav>li>a {
+    color:white;
+}
